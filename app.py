@@ -179,7 +179,7 @@ col_left, col_right = st.columns(2)
 with col_left:
     funnel_data = pd.DataFrame({
         "Stage":   ["Awareness", "Exploration", "Consideration", "Conversion", "Retention"],
-        "Users":   [12400, 9152, 6304, 4249, 2690],
+        "Users":   [12400, 9152, 6304, 7249, 2690],
         "Pct":     [100, 74, 51, 34, 22],
     })
 
